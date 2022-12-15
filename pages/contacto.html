@@ -11,58 +11,156 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
-<body>
+<body class="bg-dark">
     <header>
-        <h1>¡Contactanos!</h1>
+        <h1 class="container-fluid bg-dark text-secondary d-flex justify-content-center">
+            <p class="text-light mb-0 p-2 fs-6">
+            <p class="fw-bold text-white"> Blog Fuego y Sangre </p>
+        </h1>
 
 
     </header>
 
-    <!-- ===========================Formulario de contacto=========================== -->
+    <main>
+        <nav class="navbar navbar-expand-lg bg-white" id="navegadores">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <span class="text-danger fs-4 fw-bold"> FyS</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-    <section>
-        <div class="container-fluid" id="contenedor-formulario">
-            <div id="titulo-formulario" class="text-center mb-4">
-                <div><img src="../img/viserion-rhaegal-drogon.gif" alt="contacto" class="img-fluid"></div>
-                <h2>Contacto</h2>
-                <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque doloremque </p>
-                <form action="">
-                    <div class="mb-3">
+                        <!-- rootear los 5 html======================================================  -->
+                        <li class="nav-item">
+                            <a class="nav-link active " aria-current="page" href="../index.html">Inicio</a>
+                        </li>
 
-                        <input type="email" class="form-control" id="email"
-                            placeholder="nombre@ejemplo.com" required>
-                    </div>
-                    <div class="mb-3">
-                        <div class="mb-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/foro.html">Foro</a>
 
-                            <input type="text" class="form-control" id="nombre"
-                                placeholder="Nicolas Diaz" required>
-                        </div>
-                        <div class="mb-3">
-                            <div class="mb-3">
+                        <li class="nav-item">
+                            <a class="nav-link " href="../pages/contacto.html">Contacto</a>
 
-                                <input type="tel" class="form-control" id="tel"
-                                    placeholder="1137154833" required>
-                            </div>
-                            <div class="mb-3">
+                        <li class="nav-item">
+                            <a class="nav-link " href="../pages/productos.html">Productos</a>
 
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                            <div class="mb-3">
-                                <button type="button" class="btn btn-primary w-100 fs-5">Enviar Mensaje</button>
+                        <li class="nav-item">
+                            <a class="nav-link " href="../pages/noticias.html">Noticias</a>
 
-                            </div>
-                </form>
+                    </ul>
+
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-danger btn-primary-outline-success" type="button">Buscar</button>
+                    </form>
+                </div>
             </div>
-    </section>
+        </nav>
+        <div>
+            <section class="d-flex justify-content-center">
+                <div class="card col-sm-6 p-5">
+                    <div class="mb-3">
+                        <h4>Contactanos!</h4>
+                    </div>
+                    <div class="mb-2">
+                        <form action="">
+                            <div class="mb-2">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" class="form-control" name="nombre" id="nombre"
+                                    placeholder="ej: Gabriel">
+                            </div>
+                            <div class="mb-2">
+                                <label for="apellido">Apellido</label>
+                                <input type="text" class="form-control" name="apellido" id="apellido"
+                                    placeholder="ej: Ramos">
+                            </div>
+                            <div class="mb-2">
+                                <label for="correo">Correo</label>
+                                <input type="text" class="form-control" name="correo" id="correo"
+                                    placeholder="ej: correo@ejemplo.com">
+                            </div>
+                            <div class="mb-2">
+                                <label for="sexo">Sexo</label>
+                                <input type="radio" name="sexo" id="femenino" value="masculino"> Masculino
+                                <input type="radio" name="sexo" id="femenino" value="masculino"> Femenino
+                            </div>
+                            <div class="mb-2">
+                                <label for="mensaje">Mensaje</label>
+                                <textarea name="mensaje" id="mensaje" class="form-control"
+                                    placeholder="ej: hola!"></textarea>
+                            </div>
+                            <div class="mb-2">
+                                <button class="btn btn-primary">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
 
+            <!-- ############################### PIE DE PAGINA ############################################## -->
 
- <footer>
+            <footer>
+                <nav class="p-3 fs-6 border-top border-3 text-center shadow">
 
-        
-    
-    </footer>
+                    <div class="container-fluid">
 
+                        <div class="row p-5 pb-1 bg-black text-white">
+                            <div class="col-xs-12 col-md-6 col-lg-3">
+                                <p class="h3">FyS</p>
+                                <p class="h6 text-secondary">Blog Fuego y Sangre</p>
+
+                            </div>
+                            <div class="col-xs-12 col-md-6 col-lg-3">
+                                <p class="h5 mb-2 ">Sitios</p>
+                                <div class="mb-2">
+                                    <a class="text-secondary text-decoration-none" href="#">Hielo y Fuego Wiki</a>
+                                </div>
+                                <div class="mb-2">
+                                    <a class="text-secondary text-decoration-none" href="#">Jag Duran</a>
+                                </div>
+                                <div class="mb-2">
+                                    <a class="text-secondary text-decoration-none" href="#">Maglor</a>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-6 col-lg-3">
+                                <p class="h5 mb-2">Contacto</p>
+                                <div class="mb-2">
+                                    <a class="text-secondary text-decoration-none" href="#">Whatsapp</a>
+                                </div>
+                                <div class="mb-2">
+                                    <a class="text-secondary text-decoration-none" href="#">0800-777-3221 (9 a 18hs)</a>
+                                </div>
+
+                            </div>
+                            <div class="col-xs-12 col-md-6 col-lg-3">
+                                <p class="h5 mb-2">Redes Sociales</p>
+                                <div class="mb-2">
+                                    <a class="text-secondary text-decoration-none" href="#">Facebook</a>
+                                </div>
+                                <div class="mb-2">
+                                    <a class="text-secondary text-decoration-none" href="#">Instagram</a>
+                                </div>
+                                <div class="mb-2">
+                                    <a class="text-secondary text-decoration-none" href="#">YouTube</a>
+                                </div>
+
+                            </div>
+
+                            <div class="col-xs-12 pt-3">
+                                <p class="text-white text-secondary">George R.R Martin®. Todos los derechos reservados.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </nav>
+            </footer>
+            <!-- ############################### FIN PIE DE PAGINA ############################################## -->
 
 </body>
 

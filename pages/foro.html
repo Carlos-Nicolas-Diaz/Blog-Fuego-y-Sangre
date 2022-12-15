@@ -11,50 +11,149 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
-<body class="backGroundForo">
+<body>
     <header>
-        <!-- pendiente de agregar sonido multimedia a esta pagina -->
-        <div class="tituloPrincipalForo">
-            <h1 class="container-fluid bg-papaya d-flex justify-content-center">
-                <p class="text-light mb-0 p-2 fs-6">
-                <p> Unite al Foro de los 7 Reinos! </p>
-            </h1>
-        </div>
+        <h1 class="fw-bold fs-1">Unite al Foro de los 7 Reinos!</h1>
     </header>
-    <main>
-    <section>
-        <form class="row g-3">
-            <div class="col-auto">
-              <label for="staticEmail2" class="visually-hidden">Email</label>
-              <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="email@ejemplo.com">
+    <nav class="navbar navbar-expand-lg bg-white" id="navegadores">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <span class="text-danger fs-4 fw-bold"> FyS</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    
+                    <li class="nav-item">
+                        <a class="nav-link active " aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/foro.html">Foro</a>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="../pages/contacto.html">Contacto</a>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="../pages/productos.html">Productos</a>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="../pages/noticias.html">Noticias</a>
+
+                </ul>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-danger btn-primary-outline-success" type="button">Buscar</button>
+                </form>
             </div>
-            <div class="col-auto">
-              <label for="inputPassword2" class="visually-hidden">Contraseña</label>
-              <input type="password" class="form-control" id="inputPassword2" placeholder="Contraseña">
-            </div>
-            <div class="col-auto">
-              <button type="submit" class="btn btn-primary mb-3">Ingresar</button>
-            </div>
-          </form>
-    </section>
-</main>
-    <footer>
-        <div class="mt-5 text-center">
-            <img class="img-fluid" src="../img/casas-juego-tronos_98.webp" alt="jonsnow">
         </div>
-<section>
-    <nav class="p-3 fs-6 border-top border-3 text-center">
-
-        <li> Codigo de honor</li>
-            <li> Politica de Cookies</li>
-                <li> Politica de privacidad</li>
-                    <li> Aviso Legal</li>
-                        <li> Condiciones de contratacion</li>
-
     </nav>
-    <p>George R.R Martin®. Todos los derechos reservados 2022.</p>
-</section>
+    <!-- =====================================FORMULARIO LOGIN======================================= -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+
+            </div>
+            <div class="col">
+                <div class="text-end">
+                    <img src="../img/logotargaryen.jpg" width="48" alt="logo">
+                </div>
+                <h2 class="fw-bold text-center py-5">Bienvenido</h2>
+
+                <!-- ===========login============ -->
+                <form action="#">
+                    <div class="mb-4">
+                    <label for="email" class="form-label">Correo electronico</label>
+                    <input type="email" class="form-control" name="email"> 
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="form-label">Correo electronico</label>
+                        <input type="password" class="form-control" name="password"> 
+                    </div>
+                    <div class="mb-4 form-check">
+                        <input type="checkbox" name="connected" class="form-check-input" id="">
+                        <label for="connected" class="form-check-label">Mantenerme conectado</label>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary">Iniciar Sesion</button>
+                    </div>
+                    <div class="my-3">
+                        <span>No tienes cuenta? <a href="#">Registrate</a></span> <br>
+                        <span> <a href="#">Recuperar Contraseña</a></span>
+                    </div>
+                </form>
+                        
+                        
+        </div>
+    </div>
+
+    <footer>
+        <nav class="p-3 fs-6 border-top border-3 text-center shadow">
+
+            <div class="container-fluid">
+
+                <div class="row p-5 pb-1 bg-black text-white">
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                        <p class="h3">FyS</p>
+                        <p class="h6 text-secondary">Blog Fuego y Sangre</p>
+
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                        <p class="h5 mb-2 ">Sitios</p>
+                        <div class="mb-2">
+                            <a class="text-secondary text-decoration-none" href="#">Hielo y Fuego Wiki</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="text-secondary text-decoration-none" href="#">Jag Duran</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="text-secondary text-decoration-none" href="#">Maglor</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                        <p class="h5 mb-2">Links</p>
+                        <div class="mb-2">
+                            <a class="text-secondary text-decoration-none" href="#">Legales</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="text-secondary text-decoration-none" href="#">Terminos y
+                                Condiciones</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="text-secondary text-decoration-none" href="#">Politica y
+                                Privacidad</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                        <p class="h5 mb-2">Contacto</p>
+                        <div class="mb-2">
+                            <a class="text-secondary text-decoration-none" href="#">Facebook</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="text-secondary text-decoration-none" href="#">Instagram</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="text-secondary text-decoration-none" href="#">YouTube</a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-xs-12 pt-3">
+                        <p class="text-white text-secondary">George R.R Martin®. Todos los derechos
+                            reservados.</p>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
     </footer>
+
 </body>
 
 
