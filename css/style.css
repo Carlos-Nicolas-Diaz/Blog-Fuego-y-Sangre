@@ -1,14 +1,14 @@
-body {
+/* body {
 
     font-family: 'Monserrat', sans, serif;
     overflow-x: hidden;
-}
+} */
 
 
 
 /* navegadores */
 
-#navegadores li>a {
+/* #navegadores li>a {
     font-size: 18px;
     font-weight: bold;
     color: #3f3f3f;
@@ -19,20 +19,20 @@ body {
     font-sixe: 18px;
     font-weight: bold;
 
-}
+} */
 
 
 
 /* imagenes */
 
-.carousel-inner {
+/* .carousel-inner {
     max-height: 39rem;
-}
+} */
 
 /* ========================MEDIA QUERIES========================================= */
 /* media queries pantalla sm */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     #intro {
         width: 90% !important;
     }
@@ -42,18 +42,18 @@ body {
         text-align: center;
     }
 
-}
+} */
 
 /* media queries pantalla extra sm */
-@media (max-width:576px) {
+/* @media (max-width:576px) {
     icono-wrap {
         flex-wrap: wrap;
         justify-content: center !important;
     }
-}
+} */
 
 /* media queries pantalla ancha */
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
     #local {
         flex-wrap: wrap;
         padding-top: 30px;
@@ -63,96 +63,92 @@ body {
         width: 90%;
         margin: auto;
         padding-top: 50px;
-    }
+    } */
 
-    /* ========================================fin media queries==================================== */
 
-    /* footer */
+/* ========================================fin media queries==================================== */
 
-    #footer {
+/* footer */
+
+/* #footer {
         width: 90% !important;
 
-    }
+    } */
 
-    /* =====================video youtube=============================================================== */
-    .embed-container {
-        position: relative;
-        padding-bottom: 56.25%;
-        height: 0;
-        overflow: hidden;
-    }
+/* =====================video youtube=============================================================== */
+/* .embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
 
-    .embed-container iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-
-
-    /* ==================antes de continuar asegurarse que el video quede full responsive */
-
-    /* =============================pagina contactos ===============================*/
-
-    #contenedor-formulario {
-        position: absolute;
-        top: 30%;
-        left: 50%;
-        bottom: 100%;
-        transform: translate(-50%, -50%);
-        background: #fbfafa;
-        border-radius: 5px;
-        max-width: 500px;
-
-    }
-
-    #titulo-formulario {
-        color: #3f3f3f;
-    }
-
-    
-
-    /* ================================estilos html-foro============================== */
-
-    .tituloPrincipalForo {
-        color: blue;
-    }
+.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} */
 
 
-    /* ==================== SECCION MAPA UBICACION (HTML PRODUCTOS) ========================= */
+/* ==================antes de continuar asegurarse que el video quede full responsive */
 
-    /* .mapa {
-        background: url(../img/mapa.jpg);
-        width: 100%;
-        height: 500px; */
+/* =============================pagina contactos ===============================*/
 
-    }
+/* #contenedor-formulario {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    bottom: 100%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
 
-   
+}
 
-    .wrapper {
-        width: 50%;
-        margin-left: 100px;
-        padding-top: 150px;
+#titulo-formulario {
+    color: #3f3f3f;
+} */
 
-        }
 
-        /* =======================seccion equipo palermo========================== */
 
-        #numeros-local div {
-            padding: 0 20px 0 0;
-            height: 48px;
-        }
+/* ================================estilos html-foro============================== */
+/* 
+.tituloPrincipalForo {
+    color: blue;
+} */
 
-        #numeros-local div:not(:last-child){
-            border-right: 2px solid #3f3f3f;
-        }
 
-        #numeros-local div:not(:first-child){
-        padding-left: 20px;
-        }
+/* ==================== SECCION MAPA UBICACION (HTML PRODUCTOS) ========================= */
 
-        #numeros-local p {
-margin: 0;
-        }
+
+
+
+
+/* .wrapper {
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 150px;
+
+} */
+
+/* =======================seccion equipo palermo========================== */
+
+/* #numeros-local div {
+    padding: 0 20px 0 0;
+    height: 48px;
+}
+
+#numeros-local div:not(:last-child) {
+    border-right: 2px solid #3f3f3f;
+}
+
+#numeros-local div:not(:first-child) {
+    padding-left: 20px;
+}
+
+#numeros-local p {
+    margin: 0;
+} */
